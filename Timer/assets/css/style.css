@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(31, 90, 251, 0.646);
+}
+
+h1{
+  font-size: 30pt;
+  text-align: center;
+}
+
+h2{
+  opacity: 0%;
+}
+
+.container{
+  border: solid;
+  max-width :600px;
+  height: 100%;
+  background-color: white;
+  margin-left: 650px ; 
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.493);
+}
+form input, form label, form button{
+  display: block;
+  width: 93%;
+  height: 40px;
+  margin-left: 20px;
+}
+label{
+  margin-left: 20px;
+  font-size: 16pt;
+}
+button#verdadeiro{
+  width:94%;
+  height: 40px;
+  margin-top: 30px;
+  size: 20pt;
+  margin-left: 20px;
+  background-color: rgba(31, 90, 251, 0.446);
+  cursor: pointer;
+}
+button#falso{
+  opacity: 0%;
+}
+button#verdadeiro:hover{
+  background-color:rgba(221, 85, 85, 0.678);
+}
+table{
+  margin-left: 20px;
+  width: 100%;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  font-size:22px
+}
+div{ margin-left: 20px; font-size: 30px;}
+p{margin-left: 20px; font-size: 30px; margin-right: 20px;}
+section{margin-left: 20px; font-size: 30px;}
+footer{margin-left: 20px; font-size: 30px;}
+button{margin-left: 20px; font-size: 25px; margin-right: 20px}
+
+.paragrafoResultado {
+  background: rgb(116, 216, 219);
+  padding: 20px;
+  margin-right: 20px ;
+}
+h3 {
+  opacity: 0%;
+  margin-top: -40px;
+}
+relogiocss {
+  color: red
+}
